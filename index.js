@@ -1,6 +1,6 @@
 (function() {
     // https://dashboard.emailjs.com/admin/account
-    emailjs.init('YOUR_PUBLIC_KEY');
+    emailjs.init(process.env.API_KEY_EMAIL);
 })();
 
 window.onload = function() {
