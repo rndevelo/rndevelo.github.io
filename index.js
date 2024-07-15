@@ -19,7 +19,7 @@ window.onload = function() {
             message: userMessage
         };
         
-        emailjs.sendForm('service_ss1po4w', 'template_g32gu89', templateParams)
+        emailjs.sendForm('service_ss1po4w', 'template_g32gu89', this)
             .then(function() {
                 console.log('SUCCESS!');
                 alert('Mensaje enviado con éxito!');
