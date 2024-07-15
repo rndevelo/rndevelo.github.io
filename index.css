@@ -132,6 +132,21 @@ footer#contact input[type="email"] {
     height: auto;
 }
 
+footer#contact input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Para que el posicionamiento absoluto de la imagen sea relativo a este contenedor */
+    height: auto;
+}
+
 footer#contact button {
     background-color: #3498db; /* Azul para el botón */
     color: white;
