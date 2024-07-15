@@ -6,7 +6,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #10141a, #1a1f26); /* Gradiente de fondo */
+    color: #ecf0f1; /* Color de texto claro para contraste */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +18,7 @@ main {
     padding: 1em;
     max-width: 800px;
     width: 100%;
-    background-color: white;
+    background-color: #1a1f26; /* Fondo oscuro para el main */
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     box-sizing: border-box;
     text-align: center;
@@ -33,19 +34,19 @@ section {
 }
 
 h1, h2 {
-    color: #3498db;
+    color: #3498db; /* Azul claro para encabezados */
 }
 
 p {
-    color: #2c3e50;
+    color: #ecf0f1; /* Texto claro para legibilidad */
 }
 
 a {
-    color: #e74c3c;
+    color: #e74c3c; /* Rojo para enlaces */
 }
 
 button {
-    background-color: #2ecc71;
+    background-color: #2ecc71; /* Fondo verde para botones */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -54,7 +55,7 @@ button {
 }
 
 button:hover {
-    background-color: #27ae60;
+    background-color: #27ae60; /* Verde más oscuro en hover */
 }
 
 /* Estilos para imágenes */
@@ -75,7 +76,7 @@ button:hover {
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
-    .flex-container {
+    #img_instructions {
         flex-direction: column;
         align-items: center;
     }
